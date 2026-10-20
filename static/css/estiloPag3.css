@@ -1,0 +1,10 @@
+nav.container {
+    border: 2px solid #706f6e;
+    border-radius: 50px;          /* Bordes totalmente redondeados tipo píldora */
+    padding: 6px 18px;            /* Espaciado interno cómodo */
+    background-color: #ffffff;
+    
+    width: fit-content;           /* Obliga a la cápsula a medir solo lo que ocupe el texto */
+    margin-left: 1rem !important; /* Mantiene un pequeño margen de separación con el borde izquierdo */
+    margin-right: auto !important;/* Empuja todo el espacio sobrante hacia la derecha */
+}

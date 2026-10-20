@@ -1,0 +1,25 @@
+body {
+    background-color: #f5f5f5;
+    color: #211103;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #8b7d71;
+}
+
+a, .nav-link {
+    color: rgb(29, 35, 53) !important;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #8cb5d6  !important;
+    opacity: 0.7;
+}
+
+nav.container {
+    border: 2px solid #706f6e;   /* Grosor, estilo continuo y tu color */
+    border-radius: 50px;         /* Curvatura de las esquinas */
+    padding: 8px 24px;          /* Espacio interno para que el texto respire */
+    background-color: #ffffff;   /* Fondo blanco limpio para contrastar sobre #f5f5f5 */
+}
